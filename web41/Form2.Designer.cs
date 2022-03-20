@@ -35,8 +35,6 @@ namespace web4
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
@@ -50,7 +48,6 @@ namespace web4
             this.button1.TabIndex = 0;
             this.button1.Text = "Universe";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -70,7 +67,6 @@ namespace web4
             this.button3.TabIndex = 2;
             this.button3.Text = "Read Data about universe from XML";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // dataGridView1
             // 
@@ -102,33 +98,11 @@ namespace web4
             this.dataGridView3.Size = new System.Drawing.Size(340, 233);
             this.dataGridView3.TabIndex = 5;
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(479, 115);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(130, 74);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Create JSON File";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(646, 115);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(130, 74);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Read Data about universe from JSON";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1255, 746);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
@@ -152,7 +126,5 @@ namespace web4
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
     }
 }
